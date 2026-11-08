@@ -1,0 +1,87 @@
+
+:root{
+    --main: #0c0c0c;
+    --accent: #3350e9;
+    --background: #fbfbfb;
+    --cards: #f3f3f3;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gilroy, sans-serif;
+    color: var(--main);
+    background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.container {
+    margin: 0 auto;
+    max-width: 335px;
+}
+.section{
+    margin: 60px 0;
+}
+.section-headline{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+}
+.section-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 704px;
+    }
+        .section {
+            margin: 80px 0;
+        }
+    .section-headline{
+        font-size: 48px;
+        line-height: 0.92;
+    }
+    .section-text{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+@media screen and (min-width:1280px) {
+    .container{
+        max-width: 1150px;
+    }
+        .section {
+            margin: 100px 0;
+        }
+        .hero-section{
+            margin: 80px 0;
+        }
+}

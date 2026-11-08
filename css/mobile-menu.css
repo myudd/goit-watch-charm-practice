@@ -1,0 +1,23 @@
+.mobile-menu{
+    display: block;
+}
+.burger-menu{
+     stroke: var(--main);
+     background: none;
+     line-height: 1;
+}
+.close-btn{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    
+}
+@media screen and (min-width:1280px) {
+    .mobile-menu {
+            display: none;
+        }
+    
+        .burger-menu {
+            display: none;
+        }
+}

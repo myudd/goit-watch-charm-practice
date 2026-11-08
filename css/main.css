@@ -1,0 +1,12 @@
+@import url("../fonts/gilroy/stylesheet.css");
+@import './common.css';
+@import './header.css';
+@import './hero.css';
+@import './about.css';
+@import './catalog.css';
+@import './cta.css';
+@import './sale.css'; 
+@import './reviews.css'; 
+@import './contact.css'; 
+@import './footer.css'; 
+@import './mobile-menu.css'; 
