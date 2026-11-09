@@ -19,6 +19,7 @@
 .about-section-preview{
     display: block;
     border-radius: 30px;
+    height: 100%;
 }
 .about-section-text-block{
     padding: 40px 20px;

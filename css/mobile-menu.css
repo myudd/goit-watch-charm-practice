@@ -1,4 +1,7 @@
 .mobile-menu{
+    display: none;
+}
+.mobile-menu.is-active{
     display: block;
     position: fixed;
     top: 0;
