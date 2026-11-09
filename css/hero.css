@@ -28,7 +28,11 @@
     font-size: 14px;
     line-height: 1.29;
     text-decoration: underline;
-    text-decoration-skip-ink: none
+    text-decoration-skip-ink: none;
+    transition: color 250ms linear;
+}
+.scroll-down:hover{
+    color: var(--accent);
 }
 .reviewed-by{
     display: block;

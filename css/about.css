@@ -16,9 +16,6 @@
     max-width: 160px;
     border-radius: 16px;
 }
-.section-headline{
-    margin-bottom: 28px;
-}
 .about-section-preview{
     display: block;
     border-radius: 30px;
@@ -27,6 +24,9 @@
     padding: 40px 20px;
     background: var(--cards);
     border-radius: 30px;
+}
+.about-section-headline {
+    margin-bottom: 28px;
 }
 @media screen and (min-width:768px) {
     .about-section-headline{

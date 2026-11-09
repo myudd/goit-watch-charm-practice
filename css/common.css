@@ -4,6 +4,10 @@
     --accent: #3350e9;
     --background: #fbfbfb;
     --cards: #f3f3f3;
+    --card-height: 364px;
+    --gap: 20px;
+    --four-cards: calc(var(--card-height) * 4 + var(--gap) * 3);
+    
 }
 
 *{
@@ -50,6 +54,7 @@ button {
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
+    margin-bottom: 24px;
 }
 .section-text{
     font-weight: 500;
@@ -57,7 +62,20 @@ button {
     line-height: 1.29;
     color: rgba(12, 12, 12, 0.7);
 }
-
+.home-btn{
+    transition: background-color 250ms linear;
+}
+.home-btn:hover,
+.home-btn:active,
+.home-btn:focus {
+    background-color: #1f3cd4;
+}
+@media screen and (max-width:374px){
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
 @media screen and (min-width:768px) {
     .container{
         max-width: 704px;
@@ -68,6 +86,7 @@ button {
     .section-headline{
         font-size: 48px;
         line-height: 0.92;
+        margin-bottom: 40px;
     }
     .section-text{
         font-size: 16px;
